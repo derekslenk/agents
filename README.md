@@ -249,7 +249,7 @@ Clone the repository to the Claude agents directory:
 
 ```bash
 cd ~/.claude
-git clone https://github.com/wshobson/agents.git
+git clone https://github.com/derekslenk/agents.git
 ```
 
 The subagents will be automatically available to Claude Code once placed in the `~/.claude/agents/` directory.

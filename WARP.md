@@ -12,7 +12,7 @@ This repository contains 83 specialized AI subagents for Claude Code, providing 
 ```bash
 # Clone the repository to Claude agents directory
 cd ~/.claude
-git clone https://github.com/wshobson/agents.git
+git clone https://github.com/derekslenk/agents.git
 
 # View all available agents
 ls *.md | grep -v README | grep -v WARP
