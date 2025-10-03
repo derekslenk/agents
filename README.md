@@ -22,11 +22,11 @@ This repository provides production-ready subagents that extend Claude Code's ca
 |-------|-------|-------------|
 | [backend-architect](backend-architect.md) | opus | RESTful API design, microservice boundaries, database schemas |
 | [frontend-developer](frontend-developer.md) | sonnet | React components, responsive layouts, client-side state management |
-| [graphql-architect](graphql-architect.md) | opus | GraphQL schemas, resolvers, federation architecture |
-| [architect-reviewer](architect-review.md) | opus | Architectural consistency analysis and pattern validation |
+| [graphql-architect](graphql-architect.md) | sonnet | GraphQL schemas, resolvers, federation architecture |
+| [architect-reviewer](architect-review.md) | sonnet | Architectural consistency analysis and pattern validation |
 | [cloud-architect](cloud-architect.md) | opus | AWS/Azure/GCP infrastructure design and cost optimization |
-| [hybrid-cloud-architect](hybrid-cloud-architect.md) | opus | Multi-cloud strategies across cloud and on-premises environments |
-| [kubernetes-architect](kubernetes-architect.md) | opus | Cloud-native infrastructure with Kubernetes and GitOps |
+| [hybrid-cloud-architect](hybrid-cloud-architect.md) | sonnet | Multi-cloud strategies across cloud and on-premises environments |
+| [kubernetes-architect](kubernetes-architect.md) | sonnet | Cloud-native infrastructure with Kubernetes and GitOps |
 
 #### UI/UX & Mobile
 
@@ -84,14 +84,14 @@ This repository provides production-ready subagents that extend Claude Code's ca
 |-------|-------|-------------|
 | [devops-troubleshooter](devops-troubleshooter.md) | sonnet | Production debugging, log analysis, deployment troubleshooting |
 | [deployment-engineer](deployment-engineer.md) | sonnet | CI/CD pipelines, containerization, cloud deployments |
-| [terraform-specialist](terraform-specialist.md) | opus | Infrastructure as Code with Terraform modules and state management |
+| [terraform-specialist](terraform-specialist.md) | sonnet | Infrastructure as Code with Terraform modules and state management |
 | [dx-optimizer](dx-optimizer.md) | sonnet | Developer experience optimization and tooling improvements |
 
 #### Database Management
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [database-optimizer](database-optimizer.md) | opus | Query optimization, index design, migration strategies |
+| [database-optimizer](database-optimizer.md) | sonnet | Query optimization, index design, migration strategies |
 | [database-admin](database-admin.md) | sonnet | Database operations, backup, replication, monitoring |
 
 #### Incident Response & Network
@@ -109,10 +109,10 @@ This repository provides production-ready subagents that extend Claude Code's ca
 |-------|-------|-------------|
 | [code-reviewer](code-reviewer.md) | opus | Code review with security focus and production reliability |
 | [security-auditor](security-auditor.md) | opus | Vulnerability assessment and OWASP compliance |
-| [backend-security-coder](backend-security-coder.md) | opus | Secure backend coding practices, API security implementation |
-| [frontend-security-coder](frontend-security-coder.md) | opus | XSS prevention, CSP implementation, client-side security |
-| [mobile-security-coder](mobile-security-coder.md) | opus | Mobile security patterns, WebView security, biometric auth |
-| [architect-reviewer](architect-review.md) | opus | Architectural consistency and pattern validation |
+| [backend-security-coder](backend-security-coder.md) | sonnet | Secure backend coding practices, API security implementation |
+| [frontend-security-coder](frontend-security-coder.md) | sonnet | XSS prevention, CSP implementation, client-side security |
+| [mobile-security-coder](mobile-security-coder.md) | sonnet | Mobile security patterns, WebView security, biometric auth |
+| [architect-reviewer](architect-review.md) | sonnet | Architectural consistency and pattern validation |
 
 #### Testing & Debugging
 
@@ -127,8 +127,8 @@ This repository provides production-ready subagents that extend Claude Code's ca
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [performance-engineer](performance-engineer.md) | opus | Application profiling and optimization |
-| [observability-engineer](observability-engineer.md) | opus | Production monitoring, distributed tracing, SLI/SLO management |
+| [performance-engineer](performance-engineer.md) | sonnet | Application profiling and optimization |
+| [observability-engineer](observability-engineer.md) | sonnet | Production monitoring, distributed tracing, SLI/SLO management |
 | [search-specialist](search-specialist.md) | haiku | Advanced web research and information synthesis |
 
 ### Data & AI
@@ -137,7 +137,7 @@ This repository provides production-ready subagents that extend Claude Code's ca
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [data-scientist](data-scientist.md) | opus | Data analysis, SQL queries, BigQuery operations |
+| [data-scientist](data-scientist.md) | sonnet | Data analysis, SQL queries, BigQuery operations |
 | [data-engineer](data-engineer.md) | sonnet | ETL pipelines, data warehouses, streaming architectures |
 
 #### Machine Learning & AI
@@ -145,7 +145,7 @@ This repository provides production-ready subagents that extend Claude Code's ca
 | Agent | Model | Description |
 |-------|-------|-------------|
 | [ai-engineer](ai-engineer.md) | opus | LLM applications, RAG systems, prompt pipelines |
-| [ml-engineer](ml-engineer.md) | opus | ML pipelines, model serving, feature engineering |
+| [ml-engineer](ml-engineer.md) | sonnet | ML pipelines, model serving, feature engineering |
 | [mlops-engineer](mlops-engineer.md) | opus | ML infrastructure, experiment tracking, model registries |
 | [prompt-engineer](prompt-engineer.md) | opus | LLM prompt optimization and engineering |
 
@@ -153,7 +153,7 @@ This repository provides production-ready subagents that extend Claude Code's ca
 
 | Agent | Model | Description |
 |-------|-------|-------------|
-| [docs-architect](docs-architect.md) | opus | Comprehensive technical documentation generation |
+| [docs-architect](docs-architect.md) | sonnet | Comprehensive technical documentation generation |
 | [api-documenter](api-documenter.md) | sonnet | OpenAPI/Swagger specifications and developer docs |
 | [reference-builder](reference-builder.md) | haiku | Technical references and API documentation |
 | [tutorial-engineer](tutorial-engineer.md) | sonnet | Step-by-step tutorials and educational content |
@@ -181,8 +181,8 @@ This repository provides production-ready subagents that extend Claude Code's ca
 | Agent | Model | Description |
 |-------|-------|-------------|
 | [customer-support](customer-support.md) | sonnet | Support tickets, FAQ responses, customer communication |
-| [hr-pro](hr-pro.md) | opus | HR operations, policies, employee relations |
-| [legal-advisor](legal-advisor.md) | opus | Privacy policies, terms of service, legal documentation |
+| [hr-pro](hr-pro.md) | sonnet | HR operations, policies, employee relations |
+| [legal-advisor](legal-advisor.md) | sonnet | Privacy policies, terms of service, legal documentation |
 
 ### Specialized Domains
 
@@ -219,6 +219,11 @@ Agents are assigned to specific Claude models based on task complexity and compu
 | Opus  | 9  | Complex reasoning, architecture, and critical analysis |
 | Sonnet | 63 | Programming, frontend/UI, business logic, and general development |
 | Haiku  | 11 | Lightweight tasks, context/reference, SEO optimization |
+### Keeping Tables in Sync
+
+Run `python tools/update_readme_models.py` from the repository root whenever an agent's frontmatter changes.
+The script refreshes the model column in the README tables so they always match the source files.
+
 ### Haiku Model Agents
 
 | Category | Agents |
