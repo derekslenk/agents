@@ -216,10 +216,9 @@ Agents are assigned to specific Claude models based on task complexity and compu
 
 | Model | Agent Count | Use Case |
 |-------|-------------|----------|
-| Haiku | 11 | Quick, focused tasks with minimal computational overhead |
-| Sonnet | 46 | Standard development and specialized engineering tasks |
-| Opus | 22 | Complex reasoning, architecture, and critical analysis |
-
+| Opus  | 9  | Complex reasoning, architecture, and critical analysis |
+| Sonnet | 63 | Programming, frontend/UI, business logic, and general development |
+| Haiku  | 11 | Lightweight tasks, context/reference, SEO optimization |
 ### Haiku Model Agents
 
 | Category | Agents |
@@ -240,20 +239,19 @@ Agents are assigned to specific Claude models based on task complexity and compu
 
 ### Opus Model Agents
 
-| Category | Count | Agents |
-|----------|-------|--------|
-| Architecture & Design | 7 | `architect-reviewer`, `backend-architect`, `cloud-architect`, `hybrid-cloud-architect`, `kubernetes-architect`, `graphql-architect`, `terraform-specialist` |
-| Critical Analysis | 6 | `code-reviewer`, `security-auditor`, `performance-engineer`, `observability-engineer`, `incident-responder`, `database-optimizer` |
-| AI/ML Complex | 5 | `ai-engineer`, `ml-engineer`, `mlops-engineer`, `data-scientist`, `prompt-engineer` |
-| Business Critical | 4 | `docs-architect`, `hr-pro`, `legal-advisor`, `quant-analyst` |
+|| Category | Count | Agents |
+||----------|-------|--------|
+|| Core Architecture | 2 | `backend-architect`, `cloud-architect` |
+|| Critical Security & Review | 2 | `code-reviewer`, `security-auditor` |
+|| Advanced AI/ML | 3 | `ai-engineer`, `prompt-engineer`, `mlops-engineer` |
+|| Production & Financial Critical | 2 | `incident-responder`, `quant-analyst` |
 
 ## Installation
-
 Clone the repository to the Claude agents directory:
 
 ```bash
 cd ~/.claude
-git clone https://github.com/wshobson/agents.git
+git clone https://github.com/derekslenk/agents.git
 ```
 
 The subagents will be automatically available to Claude Code once placed in the `~/.claude/agents/` directory.
