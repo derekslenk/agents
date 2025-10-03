@@ -216,7 +216,9 @@ Agents are assigned to specific Claude models based on task complexity and compu
 
 | Model | Agent Count | Use Case |
 |-------|-------------|----------|
-| Opus | 9 | Complex reasoning, architecture, and critical analysis |
+| Opus  | 9  | Complex reasoning, architecture, and critical analysis |
+| Sonnet | 63 | Programming, frontend/UI, business logic, and general development |
+| Haiku  | 11 | Lightweight tasks, context/reference, SEO optimization |
 ### Haiku Model Agents
 
 | Category | Agents |
