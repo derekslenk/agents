@@ -44,9 +44,6 @@ def parse_table_row(line: str) -> tuple[str, list[str]] | None:
     if not agent_cell or "[" not in agent_cell or "]" not in agent_cell:
         return None
 
-    if set(agent_cell) <= SEPARATOR_CHARS:
-        return None
-
     match = AGENT_LINK_RE.fullmatch(agent_cell)
     if not match:
         raise TableFormatError(f"Unrecognized agent cell format: {agent_cell!r}")
